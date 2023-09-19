@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: tahoma;
+}
+
+header{
+    max-width:100vw;
+    height:12vh;
+    padding: 16px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.aside1 .Logo img {
+max-width: 6vw;
+}
+header aside .D-text h1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 130px;
+    top: 45px;
+    text-transform: uppercase;
+    
+}
+header > .aside2 > .link a{
+    text-transform:uppercase;
+    justify-content:center;
+    text-decoration:none;
+    color:darkgreen;
+    margin-left:10px;
+    align-items: center;
+    margin:40px ;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+  
+}
+header > .aside2 > .link a:hover{
+    text-decoration: underline;
+    color:gray;
+
+}
+.txt{
+    margin-top: 7%;
+}
+.logo2{
+    max-width:50vw ;
+    height: 300px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 50px; 
+}
+.his {
+    text-align: justify;
+    margin-right: 70px;
+    margin-left: 0px;
+    font-size: 20px; ;
+}
+.ski{
+    text-align: left;
+    /* color: khaki; */
+
+}
+.button button{
+    position: relative;
+    background-color:darkgreen;
+    margin-left: 40px;
+    padding: 13px;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+    
+}
+
